@@ -46,9 +46,9 @@
     padding: 30px;
 }
 .descripcionCalapi__imagen{
-    width: 50%;
-    margin-right: 35px;
-    float: left;
+    width: 45%;
+    /* margin-right: 35px; */
+    /* float: left; */
 
     
     
@@ -56,18 +56,20 @@
 
 .descripcionCalapi__texto 
 {
-margin-top: 0px;  
-
- 
+ /* margin-top: 0px;   */
+ display: inline-block;
+ width: 40%;
+ vertical-align: top;
+ margin: 0px 0px 50px 5%; 
   
 }
 
 .descripcionCalapi__parrafo
 {
-    clear: both;
-    padding-top: 35px;
-    margin-top: 0px;
-    /* text-align: center; */
+    /* clear: both;  */
+      /* padding-top: 35px; */
+    margin-top: 25px;
+      
 
 }
 
