@@ -1,3 +1,34 @@
 /* ---------------------- */
 /* CSS Matilde Navascuez */
 /* --------------------- */
+.bannerfondo {
+    width: 100%;
+    height: 150px;
+    
+    background-image: url('../../img/desktop/calapi.JPG') ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: top;
+    color:white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    font-size: 50px;
+    font-style: italic;
+         
+}
+
+/* .bannerfondo__titulo { 
+    color:white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    font-size: 50px;
+    font-style: italic;
+}*/
+
+.bannerfondo__boton 
+{background-color: white;
+}
+
+    
