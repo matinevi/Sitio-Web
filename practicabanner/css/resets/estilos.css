@@ -1,34 +1,74 @@
 /* ---------------------- */
 /* CSS Matilde Navascuez */
 /* --------------------- */
+.html{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: green; 
+}
+
 .bannerfondo {
-    width: 100%;
-    height: 150px;
-    
+   
     background-image: url('../../img/desktop/calapi.JPG') ;
     background-repeat: no-repeat; 
     background-size: cover;
-    background-position: top;
-    color:white;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 250px;
-    font-size: 50px;
-    font-style: italic;
-         
+    background-position: center; 
+}  
+   
+.bannerfondo__texto{ 
+    width: 75%;
+    text-align: right;
+    padding: 200px 0px;
+
+   
+   }
+
+.bannerfondo__texto__titulo {
+    font-size: 150px;
+    font-family: 'Arial Black';
+    color: white;
+    text-transform: uppercase;
+    margin: 0px;
 }
 
-/* .bannerfondo__titulo { 
-    color:white;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 250px;
-    font-size: 50px;
-    font-style: italic;
-}*/
+.bannerfondo__texto__boton 
+{ background-color: white;
+    color: green;
+    border: 1px;
+    padding: 5px 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    }
 
-.bannerfondo__boton 
-{background-color: white;
+
+.descripcionCalapi
+{
+    padding: 30px;
+}
+.descripcionCalapi__imagen{
+    width: 50%;
+    margin-right: 35px;
+    float: left;
+
+    
+    
+}
+
+.descripcionCalapi__texto 
+{
+margin-top: 0px;  
+
+ 
+  
+}
+
+.descripcionCalapi__parrafo
+{
+    clear: both;
+    padding-top: 35px;
+    margin-top: 0px;
+    /* text-align: center; */
+
 }
 
     
