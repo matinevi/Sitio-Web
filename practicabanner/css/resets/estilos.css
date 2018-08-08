@@ -7,6 +7,9 @@
     color: green; 
 }
 
+.header {
+    margin-bottom: 50px;
+}
 .bannerfondo {
    
     background-image: url('../../img/desktop/calapi.JPG') ;
@@ -40,6 +43,52 @@
     text-decoration: none;
     }
 
+/* ---BODY--- */
+
+.articulos{
+    /* margin-top: 50px; */
+    position: relative;
+    
+}
+.articulos__fondo
+{
+ width: 100%;
+ 
+}
+
+.articulos__parrafoarriba{
+    position: absolute;
+    width: 47%;
+    height: 47.65%;
+    left: 3%;
+    top: 2%;
+    background-color: white;
+    margin-top: 0px;
+    /* border: 1px rgb(230, 70, 230) solid; */
+    color: rgb(13, 167, 167);
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.articulos__parrafoabajo{
+    position:absolute;
+    width: 47%;
+    height: 47.65%;
+    /* border: 1px rgb(230, 70, 230) solid; */
+    background-color: white;
+    color: rgb(13, 167, 167);
+    right: 3%;
+    bottom: 2%;
+    border: 1px black solid;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+    
+
+
+/* --codigo de montana.html--- */
 
 .descripcionCalapi
 {
@@ -49,16 +98,14 @@
     width: 45%;
     /* margin-right: 35px; */
     /* float: left; */
-
-    
-    
+   
 }
 
 .descripcionCalapi__texto 
 {
  /* margin-top: 0px;   */
  display: inline-block;
- width: 40%;
+ width: 49%;
  vertical-align: top;
  margin: 0px 0px 50px 5%; 
   
@@ -73,4 +120,4 @@
 
 }
 
-    
+
