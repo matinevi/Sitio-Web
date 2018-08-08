@@ -5,19 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- estilos -->
+    <style>
+   /*tipografia importada*/
+       @font-face {
+            font-family: 'OpenSansRegular';
+            src: local('OpenSansRegular'),
+            url ('opensans-regular-webfont.woff') format('woff');
+        }
+
+         @font-face {
+            font-family: 'OpenSansBold';
+            src: local('OpenSansBold'),
+            url ('opensans-bold-webfont.woff') format('woff');
+        }
+
+        HTML {
+            font-size: 16px;
+            /* font-family:'OpenSansRegular', sans-serif; */
+            color: #bababa;
+        }
+
+        body {
+            padding: 150px;
+        }
+
+        ol{
+         list-style-type: none;
+         padding-left: 0px;
+        }
+
+        ol li {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        a{
+            color: #bababa;
+            text-decoration: none;
+        }
+        
+        h1,h4 {
+            font-family: 'OpenSansBold'; 
+            color: black;
+         }
+
+        h1 {
+            margin-bottom: 0px;
+        }
+
+        h4{
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+
+        /* ----Rollover (cuando pasa el botón por encima)---- */
+        
+        ol li:hover span.icon, ol li:hover a {
+            color: red;
+            font-family: 'OpenSansBold';
+            
+           
+        }
+
+       /* -----Popup--- */
+       .popup{
+           /* pongo lo que quiero que sea igual  */
+
+
+           width: 100px;
+           height: 100px;
+           border: 10px solid #EEE;
+
+           /* para que no aparezcan las fotos de los popup le pongo el display */
+
+            display: none;
+
+            position:absolute;
+                bottom: 0px;
+                left: 500px;
+                z-index: 10;
+
+            margin-bottom: -50px;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.5);
+       }
+
+       /* ----rollover del popup--- */
+
+       ol li:hover .popup {
+           display: inline-block;
+       }
+
+       .popup01 {
+           background-image: url('practicaBlockInline/img/desktop/recorteblockinline.jpg')
+         }
+
+         .popup02 {
+            background-image: url('practicaImagenes/img/desktop/recorteimagenes.jpg')
+        }
+
+         .popup03 {
+            background-image: url('practicabanner/img/desktop/recorteMontañas.jpg')
+
+        }
+
+    </style>
 </head>
 <body>
     <h1>Directorio Web: 
-        <h2>Matilde Navascuez</h2>
+        <h4>Matilde Navascuez</h4>
     </h1>
 
-    <ol> 
-        <li>
-            <a href="practicaBlockInline/index.html"> Práctica Block/Inline (HTML5 & CSS)</a>
+    <ol>
+       <li> 
+           <!-- insertar icono  &9658  -->
+          <span class="icon"> &#9658;  </span> <a href="practicaBlockInline/index.html"> Práctica Block/Inline (HTML5 & CSS) 06/08/2018</a>
+            <!-- Insertar popups -->
+            <div class="popup popup01">
+
+            </div>
+
         </li>
-        <li>Item02</li>
-        <li>Item03</li>
         
+       <li> 
+           <span class="icon"> &#9658;  </span>
+            <a href="practicaImagenes/index.html"> Práctica Imágenes 06/08/2018 </a> 
+
+            <!-- Insertar popups -->
+            <div class=" popup popup02">
+
+            </div>
+        </li>
+       <li>
+            <span class="icon"> &#9658;  </span>
+            <a href="practicabanner/index.html" > Práctica Banner 07/08/2018</a> 
+            <!-- Insertar popups -->
+            <div class="popup popup03">
+
+            </div>
+        </li>
 
     </ol>
     
