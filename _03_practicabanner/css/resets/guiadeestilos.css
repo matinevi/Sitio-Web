@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: local('OpenSansRegular'),
+    url ('opensans-regular-webfont.woff') format('woff');
+}
+
+ @font-face {
+    font-family: 'OpenSansBold';
+    src: local('OpenSansBold'),
+    url ('opensans-bold-webfont.woff') format('woff');
+}
+
+/* ------H's------ */
+/* H con SEO */
+h1{
+font-size: 2.5rem;
+}
+h2{
+font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+/* H sin SEO. Tienen que ser más pequeños que un P que por defecto es 1 rem */
+
+h4{
+  font-size: 0.8rem;
+}
+h5{
+ font-size:  0.6rem;
+}
+
+h6{
+font-size: 0.4rem;
+}
+
+/* -----Parrafos----- */
+p{
+font-size: 1.250rem;
+}
+pre{
+font-size: 1.250rem;
+}
+
+/* --------Colores--------- */
+.turquesaTexto
+{
+    color: #71c8ac
+}
+.turquesaFondo{
+    background-color:  #71c8ac;
+}
+
+.azulgrisTexto{
+    color: #9AC0C7;
+}
+
+.azulgrisFondo{
+    background-color: #9AC0C7;
+}
+.grismedioTexto{
+    color: #707070;
+}
+
+.grismedioFondo{
+    background-color: #707070;
+}
+
+/* ---grises--- */
+.grisoscuroTexto{
+   color: #454545 ;
+}
+
+.grismedioTexto{
+   color :#a5a5a5;
+}
+.grislightTexto{
+ color: #EEE;
+}
+
+
+.grisoscuroFondo{
+    background-color: #454545 ;
+}
+
+.grismedioFondo{
+background-color: #a5a5a5;
+}
+.grislightFondo{
+background-color: #EEE;
+}
+
+.blancoFondo{
+    background-color: #f7f7f7;
+}
+
+.negroFondo{
+    background-color: #101010;
+
+}
+
+/* ----tamaños tipográficos------- */
+
+.tituloPrincipal {
+    font-size: 9.125rem;
+}
+
+.botonTexto {
+font-size: 2.188rem;
+}
+
+
+
